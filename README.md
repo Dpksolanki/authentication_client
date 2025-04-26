@@ -35,7 +35,7 @@ This project is a React-based authentication application that allows users to si
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/react-authentication-app.git
+   git clone https://github.com/Dpksolanki/authentication_client.git
    ```
 
 2. Navigate to the project directory:
