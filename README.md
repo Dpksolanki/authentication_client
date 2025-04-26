@@ -41,7 +41,7 @@ This project is a React-based authentication application that allows users to si
 2. Navigate to the project directory:
 
    ```bash
-   cd react-authentication-app
+   cd authentication_client
    ```
 
 3. Install the dependencies:
