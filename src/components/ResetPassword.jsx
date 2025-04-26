@@ -10,6 +10,12 @@ const ResetPassword = () => {
   const { token } = useParams();
 
   const onSubmit = async (data) => {
+    // Check if passwords match
+    if (data.password !== data.confirmPassword) {
+        alert('Passwords do not match!');
+        return; // Stop the submission if passwords do not match
+      }
+  
     const response = await resetPassword(token, data.password);
     if (response.success) {
       alert('Password reset successful!');

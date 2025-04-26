@@ -13,7 +13,7 @@ const Login = () => {
     const verifyAuth = async () => {
       const response = await checkAuth();
       if (response.success) {
-        navigate('/dashboard');
+        navigate('/');
       }
     };
 
@@ -24,7 +24,7 @@ const Login = () => {
     try {
       const response = await loginUser(data);
       if (response.success) {
-        navigate('/dashboard');
+        navigate('/');
       } else {
         alert(response.message);
       }

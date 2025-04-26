@@ -12,7 +12,7 @@ const Signup = () => {
     const verifyAuth = async () => {
       const response = await checkAuth();
       if (response.success) {
-        navigate('/dashboard');
+        navigate('/');
       }
     };
 
